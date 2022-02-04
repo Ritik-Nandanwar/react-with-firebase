@@ -1,5 +1,11 @@
+import Navbar from "./Component/Navbar";
+
 function App() {
-  return <div className="bg-gray-300 ">TEST</div>;
+  return (
+    <div className="app bg-slate-500 center">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
